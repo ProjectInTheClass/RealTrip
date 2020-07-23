@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E41AB1D524C7F81600949D58 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41AB1D424C7F81600949D58 /* DetailViewController.swift */; };
+		E482DD3324C90F400073E8B9 /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482DD3224C90F400073E8B9 /* MainCollectionViewController.swift */; };
+		E482DD3524C91E630073E8B9 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482DD3424C91E630073E8B9 /* ScrollViewController.swift */; };
+		E482DD3724C924E90073E8B9 /* PreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482DD3624C924E90073E8B9 /* PreferenceViewController.swift */; };
+		E482DD3924C929370073E8B9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482DD3824C929370073E8B9 /* UserModel.swift */; };
+		E482DD3B24C92F490073E8B9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482DD3A24C92F490073E8B9 /* WelcomeViewController.swift */; };
 		E4931E8D24C54D7000B120AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4931E8C24C54D7000B120AA /* AppDelegate.swift */; };
 		E4931E8F24C54D7000B120AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4931E8E24C54D7000B120AA /* SceneDelegate.swift */; };
-		E4931E9124C54D7000B120AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4931E9024C54D7000B120AA /* ViewController.swift */; };
 		E4931E9424C54D7000B120AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4931E9224C54D7000B120AA /* Main.storyboard */; };
 		E4931E9624C54D7300B120AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4931E9524C54D7300B120AA /* Assets.xcassets */; };
 		E4931E9924C54D7300B120AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4931E9724C54D7300B120AA /* LaunchScreen.storyboard */; };
@@ -17,10 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E41AB1D424C7F81600949D58 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E482DD3224C90F400073E8B9 /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		E482DD3424C91E630073E8B9 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		E482DD3624C924E90073E8B9 /* PreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceViewController.swift; sourceTree = "<group>"; };
+		E482DD3824C929370073E8B9 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E482DD3A24C92F490073E8B9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E4931E8924C54D7000B120AA /* RealTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4931E8C24C54D7000B120AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4931E8E24C54D7000B120AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E4931E9024C54D7000B120AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4931E9324C54D7000B120AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4931E9524C54D7300B120AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4931E9824C54D7300B120AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,10 +68,15 @@
 		E4931E8B24C54D7000B120AA /* RealTrip */ = {
 			isa = PBXGroup;
 			children = (
+				E482DD3A24C92F490073E8B9 /* WelcomeViewController.swift */,
+				E482DD3824C929370073E8B9 /* UserModel.swift */,
+				E482DD3624C924E90073E8B9 /* PreferenceViewController.swift */,
+				E482DD3424C91E630073E8B9 /* ScrollViewController.swift */,
+				E482DD3224C90F400073E8B9 /* MainCollectionViewController.swift */,
+				E41AB1D424C7F81600949D58 /* DetailViewController.swift */,
 				E4931EA224C54E1400B120AA /* TripSpot.swift */,
 				E4931E8C24C54D7000B120AA /* AppDelegate.swift */,
 				E4931E8E24C54D7000B120AA /* SceneDelegate.swift */,
-				E4931E9024C54D7000B120AA /* ViewController.swift */,
 				E4931E9224C54D7000B120AA /* Main.storyboard */,
 				E4931E9524C54D7300B120AA /* Assets.xcassets */,
 				E4931E9724C54D7300B120AA /* LaunchScreen.storyboard */,
@@ -141,10 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4931E9124C54D7000B120AA /* ViewController.swift in Sources */,
+				E482DD3B24C92F490073E8B9 /* WelcomeViewController.swift in Sources */,
 				E4931E8D24C54D7000B120AA /* AppDelegate.swift in Sources */,
+				E482DD3524C91E630073E8B9 /* ScrollViewController.swift in Sources */,
+				E482DD3924C929370073E8B9 /* UserModel.swift in Sources */,
+				E482DD3324C90F400073E8B9 /* MainCollectionViewController.swift in Sources */,
 				E4931EA324C54E1400B120AA /* TripSpot.swift in Sources */,
 				E4931E8F24C54D7000B120AA /* SceneDelegate.swift in Sources */,
+				E482DD3724C924E90073E8B9 /* PreferenceViewController.swift in Sources */,
+				E41AB1D524C7F81600949D58 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
