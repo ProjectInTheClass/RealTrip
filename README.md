@@ -17,3 +17,4 @@
 
 ## 동영상
 
+[시연영상](https://github.com/ProjectInTheClass/RealTrip/blob/master/Realtrip_video/%ED%99%94%EB%A9%B4%20%EA%B8%B0%EB%A1%9D%202020-07-24%20%EC%98%A4%EC%A0%84%2010.54.48.mov?raw=true)
