@@ -7,10 +7,11 @@
 
 ## 프로토타입
 ![시작화면](https://raw.githubusercontent.com/ProjectInTheClass/RealTrip/5f83254885d250a33f0fe63d45b4584ea33ff664/RealTrip_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-24%20%EC%98%A4%EC%A0%84%2010.42.30.png){: width="100" height="100"}
+
 ![여행지설명화면](https://github.com/ProjectInTheClass/RealTrip/blob/master/RealTrip_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-24%20%EC%98%A4%EC%A0%84%2010.42.43.png?raw=true){: width="100" height="100"}
-![](https://github.com/ProjectInTheClass/RealTrip/blob/master/RealTrip_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-24%20%EC%98%A4%EC%A0%84%2011.19.19.png?raw=true){: width="100" height="100"}
-![](https://github.com/ProjectInTheClass/RealTrip/blob/master/RealTrip_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-24%20%EC%98%A4%EC%A0%84%2011.19.40.png?raw=true){: width="100" height="100"}
-![](https://github.com/ProjectInTheClass/RealTrip/blob/master/RealTrip_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-24%20%EC%98%A4%EC%A0%84%2011.19.58.png?raw=true){: width="100" height="100"}
+![검색창](https://github.com/ProjectInTheClass/RealTrip/blob/master/RealTrip_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-24%20%EC%98%A4%EC%A0%84%2011.19.19.png?raw=true){: width="100" height="100"}
+![지도](https://github.com/ProjectInTheClass/RealTrip/blob/master/RealTrip_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-24%20%EC%98%A4%EC%A0%84%2011.19.40.png?raw=true){: width="100" height="100"}
+![보관함](https://github.com/ProjectInTheClass/RealTrip/blob/master/RealTrip_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-24%20%EC%98%A4%EC%A0%84%2011.19.58.png?raw=true){: width="100" height="100"}
 
 
 ## 동영상
