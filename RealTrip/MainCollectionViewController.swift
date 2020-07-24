@@ -52,7 +52,9 @@ class MainCollectionViewController: UICollectionViewController {
         arrayLocInfo = [TripSpot(spot:"롯데월드타워", whattodo:"전망대",feature: [b,priceLevel(27000)], image: "롯데월드타워1", food: "food", hotel: ["hotel"], money: "27000"),
                         TripSpot(spot:"롯데월드타워", whattodo:"전망대",feature: [b,priceLevel(27000)], image: "롯데월드타워2", food: "food", hotel: ["hotel"], money: "27000")]
         }
- 
+        else if spotTrip.spot == ""{
+            arrayLocInfo = []
+        }
         
         
     }

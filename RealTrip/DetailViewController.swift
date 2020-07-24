@@ -21,8 +21,12 @@ class DetailViewController:UIViewController{
         viewImage?.layer.borderWidth = 3
         viewImage?.layer.borderColor = UIColor.black.cgColor
         viewImage?.layer.cornerRadius = 10
-        
+        if A == "" {
+            self.topLabel?.text = "취향에 맞는 추천지가 없습니다."
+        }
+        else{
         topLabel?.text = spotTrip.spot
+        }
         viewImage?.image = UIImage(named: spotTrip.image)
         
           switch gModelUser.price {
@@ -35,26 +39,4 @@ class DetailViewController:UIViewController{
      
         
     }
-//
-//
-//
-//    enum spotHotel{
-//        enum seoul{
-//            case expensive
-//            case cheap
-//        }
-//        enum busan{
-//            case expensive
-//            case cheap
-//        }
-//    }
-//    var HotelSpot:spotHotel.seoul = spotHotel.seoul.expensive
-//
-//    }
-//
-//
-//    enum spotFood{
-//        case seoul, busan, jeju
-//    }
-//    var FoodSpot:spotFood = spotFood.seoul
 }

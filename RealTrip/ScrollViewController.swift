@@ -16,14 +16,18 @@ class ScrollViewController: UIViewController {
     @IBOutlet var hotel:UILabel?
     
     
-    var spotTrip = TripSpot(spot: A, whattodo:"텐트, 카약, 오리배 등등", feature: [a,priceLevel(15000)], image: "한강1", food: "명동교자(교자), 맘마미아(빵), 오레노카츠(돈까스), 이태원더고깃집(고기), 송쉐프(중식), 성수아구찜(한식)", hotel: ["hotel"], money: "15000")
+    var spotTrip = TripSpot(spot: A, whattodo:"텐트, 카약, 오리배 등등", feature: [a,priceLevel(15000)], image: "한강1", food: "명동교자(교자), 맘마미아(빵), 오레노카츠(돈까스), 이태원더고깃집(고기), 송쉐프(중식), 성수아구찜(한식)", hotel: [""], money: "15000")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
         
-        
+        if spotTrip.spot == ""{
+            food?.text = ""
+            hotel?.text = ""
+        }
+        else{
         
         food?.text = spotTrip.food
         
@@ -34,7 +38,7 @@ class ScrollViewController: UIViewController {
         case .expensive:
         spotTrip.hotel = ["시드니에서울","서울 신라 호텔"]
         }
-        
+        }
         let stringHotel = spotTrip.hotel.joined(separator: ",")
         hotel?.text = stringHotel
     
@@ -62,17 +66,19 @@ class ScrollViewController: UIViewController {
         else if spotTrip.spot == "롯데월드타워"{
             spotTrip = arraySpot[7]
         }
+        else if spotTrip.spot == ""{
+            spotTrip = TripSpot(spot: "", whattodo: "", feature: [""], image: "", food: "", hotel: [""], money: "")
+        }
         
         
-
-        
-        
-        
-        
-        
+        if spotTrip.spot == ""{
+            cost?.text = ""
+            play?.text = ""
+        }
+        else{
         cost?.text = spotTrip.money + "원 (성인기준)"
         play?.text = spotTrip.whattodo
-        
+        }
     }
     
     

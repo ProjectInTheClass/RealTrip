@@ -20,7 +20,7 @@ class WelcomeViewController:UIViewController{
         gModelUser.place = .city
         
     }
-   
+    
     @IBAction func touch2(_ sender: Any) {
         gModelUser.place = .ocean
     }
@@ -48,42 +48,42 @@ class WelcomeViewController:UIViewController{
     
     
     @IBOutlet weak var preferImage: UIImageView!
-        @IBOutlet weak var ipreferImage: UIImageView!
-        
-        
-        
-
+    @IBOutlet weak var ipreferImage: UIImageView!
     
+    
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
         
-        override func viewDidLoad() {
-            super.viewDidLoad()
-            
-            preferImage?.image = UIImage(named: "여행지추천")
-            ipreferImage?.image = UIImage(named: "이색여행지추천")
-            
-            if gModelUser.price == .cheap && gModelUser.style == .extreme {
-                location = ["한강"]
-            }
-            else if gModelUser.price == .cheap && gModelUser.style == .modern{
-                location = ["남산타워","예술의전당","명동","롯데월드타워"]
-            }
-            else if gModelUser.price == .cheap && gModelUser.style == .tradition{
-                location = ["북촌한옥마을","경복궁"]
-            }
-            else if gModelUser.price == .expensive && gModelUser.style == .extreme{
-                location = ["한강","롯데월드"]
-            }
-            else if gModelUser.price == .expensive && gModelUser.style == .modern{
-                location = ["남산타워","예술의전당","롯데월드타워"]
-            }
-            else if gModelUser.price == .expensive && gModelUser.style == .tradition{
-                location = ["경복궁"]
-            }
-            
-            
+        super.viewDidAppear(animated)
+        
+        preferImage?.image = UIImage(named: "여행지추천")
+        ipreferImage?.image = UIImage(named: "이색여행지추천")
+        
+        if gModelUser.price == .cheap && gModelUser.style == .extreme {
+            location = ["한강"]
+        }
+        else if gModelUser.price == .cheap && gModelUser.style == .modern{
+            location = ["남산타워","예술의전당","명동","롯데월드타워"]
+        }
+        else if gModelUser.price == .cheap && gModelUser.style == .tradition{
+            location = ["북촌한옥마을","경복궁"]
+        }
+        else if gModelUser.price == .expensive && gModelUser.style == .extreme{
+            location = ["한강","롯데월드"]
+        }
+        else if gModelUser.price == .expensive && gModelUser.style == .modern{
+            location = ["남산타워","예술의전당","롯데월드타워"]
+        }
+        else if gModelUser.price == .expensive && gModelUser.style == .tradition{
+            location = [""]
+        }
+        
+        A = location.randomElement()!
+        
     }
     
-        
+    
     
 }
 //전역변수
