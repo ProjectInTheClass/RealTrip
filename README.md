@@ -10,7 +10,7 @@
 ![여행지설명화면](https://github.com/ProjectInTheClass/RealTrip/blob/master/RealTrip_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-24%20%EC%98%A4%EC%A0%84%2010.42.43.png?raw=true)
 ![](https://github.com/ProjectInTheClass/RealTrip/blob/master/RealTrip_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-24%20%EC%98%A4%EC%A0%84%2011.19.19.png?raw=true)
 ![](https://github.com/ProjectInTheClass/RealTrip/blob/master/RealTrip_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-24%20%EC%98%A4%EC%A0%84%2011.19.40.png?raw=true)
-
+![](https://github.com/ProjectInTheClass/RealTrip/blob/master/RealTrip_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-24%20%EC%98%A4%EC%A0%84%2011.19.58.png?raw=true)
 
 
 ## 동영상
